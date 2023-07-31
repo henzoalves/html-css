@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@font-face {
+    font-family: 'Milk';
+    src: url(LEMONMILK-Regular.otf) format(opentype);
+    font-weight: normal;
+}
+
+:root {
+    --font01: 'Milk';
+    --font-color01: #090909;
+    --font-color02: #f2f2f2;
+    --color01: #010626;
+    --color02: #0442BF;
+    --color03: #0477BF;
+}
+
+header {
+    font-family: var(--font01);
+    background-color: var(--color01);
+    color: var(--font-color02);
+    padding: 1.5%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--font-color);
+    background-color: #fcf8ff;
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 0px 25px 0px 25px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    max-width: 800px;
+}
+
+aside {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 25px;
+    display: flex;
+    color: var(--font-color02);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color01);
+    height: 100px;
+}
+
+h1, h2, h3 {
+    font-family: var(--font01);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+    padding-top: 15px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.imgs {
+    display: flex;
+    max-width: 80%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+dt {
+    padding: 10px 0px 10px 0px;
+}
+
+dd {
+    margin-left: 10px;
+}
