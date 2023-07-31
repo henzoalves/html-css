@@ -1,4 +1,4 @@
 # html-css
- study-html-css-js
+ study-html-css
 
 I'm learning about repositories! 
